@@ -46,28 +46,19 @@ srcs
 │       ├── Header.js
 │       ├── index.js
 │       └── styles.js
-├── assets/
-│   ├── fonts/
-│   └── images/
-│       ├── logo-landscape.png
-│       └── background.png
-└── screens
-    ├── Login
-    │   ├── Login.js
-    │   ├── index.js
-    │   └── styles.js
+└── assets/
+    ├── fonts/
    ...
-    └── Settings
-        ├── Settings.js
-        ├── index.js
-        └── styles.js
+    └── images/
+        ├── logo-landscape.png
+        └── background.png
 ```
 
 ## Design Style Guide
 
 ### Colors
 
-![#01babc](http://via.placeholder.com/150/01babc/000000?text=action)
+![#01babc](http://via.placeholder.com/150/01babc/000000?text=primary)
 ![#80dcdd](http://via.placeholder.com/150/80dcdd/000000?text=highlight)
 ![#222222](http://via.placeholder.com/150/222222/ffffff?text=darkish)
 ![#eeeeee](http://via.placeholder.com/150/eeeeee/000000?text=lightish)
@@ -99,7 +90,7 @@ srcs
 
 ## Acknowledgment
 
-...
+- As an inspiration, thanks to [Paul Theme's Banhaus](http://paul-themes.com/html/bauhaus/preview/).
 
 ## Resources
 
@@ -107,4 +98,6 @@ srcs
 
 ## License
 
-This project is under the MIT License.
+This project is under the MIT License. Meaning that you can use, copy, modify, merge, publish, 
+distribute, sub-license, and/or sell copies of the final products. 
+See the [LICENSE](LICENSE) file for more details.
