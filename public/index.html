@@ -22,7 +22,7 @@
   ========== -->
   <link href="%PUBLIC_URL%/css/font-awesome.min.css" rel="stylesheet" media="screen" />
   <link href="%PUBLIC_URL%/css/ionicons.min.css" rel="stylesheet" media="screen" />
-  <link href="ccss/linearicons.css" rel="stylesheet" media="screen" />
+  <link href="%PUBLIC_URL%/css/linearicons.css" rel="stylesheet" media="screen" />
 
   <!-- Font
   ========= -->
@@ -51,7 +51,7 @@
   <!--  React root component -->
   <div id="root"></div>
 
-  <div class="animsition">
+  <div class="animsition" style="z-index: 4242;">
     <div class="click-capture"></div>
 
     <!-- Sidebar menu
@@ -66,7 +66,7 @@
           <a href="#facilities">Facilities</a>
         </li>
         <li>
-          <a href="#faw">FAQ</a>
+          <a href="#faq">FAQ</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -114,10 +114,10 @@
       <div class="lang-bottom white boxed">
         <div class="menu-lang">
           <a href="#" class="active">English</a>
-          <a href="#">Français</a>
-          <a href="#">Espanol</a>
-          <a href="#">Deutsch</a>
-          <a href="#">Portuguese</a>
+          <a href="#" onClick="alert('Bientôt! :)')">Français</a>
+          <a href="#" onClick="alert('Esperalo! :)')">Espanol</a>
+          <a href="#" onClick="alert('Bald! :)')">Deutsch</a>
+          <a href="#" onClick="alert('Em breve! :)')">Portuguese</a>
         </div>
       </div>
     </section>
@@ -132,7 +132,7 @@
         <div class="scroll-wrap">
           <!-- BannerBackground -->
           <div class="section-bg"
-            style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/dorms-new.jpg);">
+            style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/dorms.jpg);">
           </div>
           <!-- BannerContent -->
           <div class="scrollable-content">
@@ -178,7 +178,7 @@
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/rooms.jpg);"></div>
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/cafeteria.jpg);"></div>
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/laundry.jpg);"></div>
-            <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/gym-new.jpg);"></div>
+            <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/gym.jpg);"></div>
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/backyard.jpg);"></div>
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/climbing.jpg);"></div>
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/cinema.jpg);"></div>
@@ -199,7 +199,7 @@
                           <div class="row-project-box row">
                             <!-- FacilitiesItem -->
                             <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                              <a href="#" onClick="alert('Rooms description info ;)')" class="project-box">
+                              <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Rooms</h5>
                                   <div class="project-category">For our cadets</div>
@@ -208,7 +208,7 @@
                             </div>
                             <!-- FacilitiesItem -->
                             <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                              <a href="#" onClick="alert('Cantina info ;)')" class="project-box">
+                              <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Cafeteria</h5>
                                   <div class="project-category">La Cantina</div>
@@ -217,7 +217,7 @@
                             </div>
                             <!-- FacilitiesItem -->
                             <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                              <a href="#" onClick="alert('Laundry info ;)')" class="project-box">
+                              <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Laundry</h5>
                                   <div class="project-category">Be clean</div>
@@ -226,7 +226,7 @@
                             </div>
                             <!-- FacilitiesItem -->
                             <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                              <a href="#" onClick="alert('Gym info ;)')" class="project-box">
+                              <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Gym</h5>
                                   <div class="project-category">Be strong</div>
@@ -235,7 +235,7 @@
                             </div>
                             <!-- FacilitiesItem -->
                             <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                              <a href="#" onClick="alert('Backyard info ;)')" class="project-box">
+                              <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Backyard</h5>
                                   <div class="project-category">Be relax</div>
@@ -244,7 +244,7 @@
                             </div>
                             <!-- FacilitiesItem -->
                             <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                              <a href="#" onClick="alert('Climbing info ;)')" class="project-box">
+                              <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Climbing</h5>
                                   <div class="project-category">Be brave</div>
@@ -253,7 +253,7 @@
                             </div>
                             <!-- FacilitiesItem -->
                             <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                              <a href="#" onClick="alert('Cinema info ;)')" class="project-box">
+                              <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Cinema</h5>
                                   <div class="project-category">Movie room</div>
