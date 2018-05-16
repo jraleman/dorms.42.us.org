@@ -295,12 +295,10 @@
       scrollingSpeed: 280,
       loopBottom: true,
       afterLoad: function(anchorLink, index) {
-        if (index == 1) {
-          $('.navbar').removeClass('navbar-white');
-          $('#pp-nav').removeClass('white');
+        if (!(index % 5)) {
           document.getElementById('toolbar').style.display = 'block';
         }
-        if (!(index % 2)) {
+        else if (!(index % 2)) {
           $('.navbar').removeClass('navbar-white');
           $('#pp-nav').removeClass('white');
           document.getElementById('toolbar').style.display = 'none';
