@@ -295,16 +295,19 @@
       scrollingSpeed: 280,
       loopBottom: true,
       afterLoad: function(anchorLink, index) {
-        if (index == 2 || index == 4 || index == 6) {
+        if (index == 1) {
           $('.navbar').removeClass('navbar-white');
           $('#pp-nav').removeClass('white');
-          $('.copy-bottom').removeClass('white');
-          $('.lang-bottom').removeClass('white');
+          document.getElementById('toolbar').style.display = 'block';
+        }
+        if (!(index % 2)) {
+          $('.navbar').removeClass('navbar-white');
+          $('#pp-nav').removeClass('white');
+          document.getElementById('toolbar').style.display = 'none';
         } else {
           $('.navbar').addClass('navbar-white');
           $('#pp-nav').addClass('white');
-          $('.copy-bottom').addClass('white');
-          $('.lang-bottom').addClass('white');
+          document.getElementById('toolbar').style.display = 'none';
         }
       }
     });
