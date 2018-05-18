@@ -51,24 +51,24 @@
   <!--  React root component -->
   <div id="root"></div>
 
-  <div class="animsition" style="z-index: 4242;">
+  <div id="pagepiling" class="animsition" style="z-index: 4242;">
     <div class="click-capture"></div>
 
     <!-- Sidebar menu
     ================= -->
-    <div class="menu">
+    <div id="menu" class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <ul class="menu-list right-boxed">
-        <li class="active">
+        <li class="active" data-menuanchor="banner">
           <a href="#banner">Apply</a>
         </li>
-        <li>
+        <li data-menuanchor="facilities">
           <a href="#facilities">Facilities</a>
         </li>
-        <li>
+        <li data-menuanchor="faq">
           <a href="#faq">FAQ</a>
         </li>
-        <li>
+        <li data-menuanchor="contact">
           <a href="#contact">Contact</a>
         </li>
       </ul>

@@ -21,7 +21,6 @@
     outClass: 'fade-out',
     inDuration: 1000,
     outDuration: 700,
-    linkElement: '.menu-list a',
     loading: true,
     loadingParentElement: 'body',
     loadingClass: 'spinner',
@@ -57,16 +56,17 @@
   });
   $('.navbar-toggle').on('click', function() {
     $('body').removeClass('menu-is-closed').addClass('menu-is-opened');
+    $('.close-menu, .click-capture').on('click', function() {
+      $('body').removeClass('menu-is-opened').addClass('menu-is-closed');
+    });
   });
-  $('.close-menu, .click-capture').on('click', function() {
-    $('body').removeClass('menu-is-opened').addClass('menu-is-closed');
-    $('.menu-list ul').slideUp(300);
-  });
-  var dropToggle = $('.menu-list > li').has('ul').children('a');
-  dropToggle.on('click', function() {
-    dropToggle.not(this).closest('li').find('ul').slideUp(200);
-    $(this).closest('li').children('ul').slideToggle(200);
-    return false;
+  $('#pagepiling').pagepiling({
+     menu: '#menu',
+     anchors: ['banner', 'facilities', 'faq', 'contact'],
+     navigation: {
+        'position': 'right',
+        'tooltips': ['Apply', 'Facilities', 'FAQ', 'Contact']
+     },
   });
   $('.js-target-scroll').on('click', function() {
     var target = $(this.hash);
