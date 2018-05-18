@@ -16,13 +16,8 @@
   <link href="%PUBLIC_URL%/css/animate.css" rel="stylesheet" media="screen" />
   <link href="%PUBLIC_URL%/css/jquery.fullPage.css" rel="stylesheet" media="screen" />
   <link href="%PUBLIC_URL%/css/jquery.pagepiling.css" rel="stylesheet" media="screen" />
-  <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet" media="screen" />
-
-  <!-- Icons
-  ========== -->
   <link href="%PUBLIC_URL%/css/font-awesome.min.css" rel="stylesheet" media="screen" />
-  <link href="%PUBLIC_URL%/css/ionicons.min.css" rel="stylesheet" media="screen" />
-  <link href="%PUBLIC_URL%/css/linearicons.css" rel="stylesheet" media="screen" />
+  <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet" media="screen" />
 
   <!-- Font
   ========= -->
@@ -57,7 +52,9 @@
     <!-- Sidebar menu
     ================= -->
     <div id="menu" class="menu">
-      <span class="close-menu icon-cross2 right-boxed"></span>
+      <span class="close-menu right-boxed">
+        <li class="fa fa-times"></li>
+      </span>
       <ul class="menu-list right-boxed">
         <li class="active" data-menuanchor="banner">
           <a href="#banner">Apply</a>
@@ -111,10 +108,7 @@
     <header id="navbar" class="navbar navbar-2 navbar-white boxed">
       <div class="navbar-bg"></div>
       <button type="button" class="navbar-toggle" aria-expanded="false" data-toggle="collapse" data-target="#navbar-collapse">
-        <!-- Replace with fontawesome menu hamburger icon -->
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="fa fa-2x fa-bars"></span>
       </button>
       <!-- Logo-->
       <a class="brand" href="#">
@@ -127,13 +121,13 @@
       </a>
       <!-- Address -->
       <address class="navbar-address visible-lg">
-        <!-- fontawesome pin icon here!!! -->
+        <li class="fa fa-map-marker"></li>
         <span class="text-dark">34793 Ardentech Ct</span>
       </address>
       <!-- Social media -->
       <div class="social-list hidden-xs">
-        <a href="#" class="icon ion-social-twitter"></a>
-        <a href="#" class="icon ion-social-facebook"></a>
+        <a href="#" target="_blank" class="fa fa-twitter"></a>
+        <a href="#" target="_blank" class="fa fa-facebook"></a>
       </div>
     </header>
 
