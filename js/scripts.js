@@ -297,15 +297,18 @@
       afterLoad: function(anchorLink, index) {
         if (!(index % 5)) {
           document.getElementById('toolbar').style.display = 'block';
+          document.getElementById('menu-icon').style.color = 'black';
         }
         else if (!(index % 2)) {
           $('.navbar').removeClass('navbar-white');
           $('#pp-nav').removeClass('white');
           document.getElementById('toolbar').style.display = 'none';
+          document.getElementById('menu-icon').style.color = 'black';
         } else {
           $('.navbar').addClass('navbar-white');
           $('#pp-nav').addClass('white');
-          document.getElementById('toolbar').style.display = 'none';
+          document.getElementById('toolbar').style.display = 'block';
+          document.getElementById('menu-icon').style.color = 'white';
         }
       }
     });
