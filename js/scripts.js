@@ -68,6 +68,12 @@
         'tooltips': ['Apply', 'Facilities', 'FAQ', 'Contact']
      },
   });
+  /*
+    This is a supposed to disable the mouse wheel scrolling, but for some
+    reason, it fixes the scroll sensivity speed or something like that...
+    fuck js :)
+  */
+  $.fn.pagepiling.setMouseWheelScrolling(false);
   $('.js-target-scroll').on('click', function() {
     var target = $(this.hash);
     if (target.length) {
