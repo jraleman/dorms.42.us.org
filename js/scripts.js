@@ -338,6 +338,11 @@
     var index = $('.project-box').index(this);
     $('.bg-changer .section-bg').removeClass('active').eq(index).addClass('active');
   });
+  // DropdownItem
+  $('.faq li .question').click(function () {
+    $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+    $(this).parent().toggleClass('active');
+  });
   if ($('.js-form').length) {
     $('.js-form').each(function() {
       $(this).validate({
