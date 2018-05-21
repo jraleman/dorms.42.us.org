@@ -344,7 +344,14 @@
     $(this).parent().toggleClass('active');
   });
   // Lazyload
-  $("img.lazyload").lazyload();
+  $('img.lazyload').lazyload();
+  $('.pagepiling').lazyloadanything({
+    'onLoad': function(e, LLobj) {
+        var $img = LLobj.$element;
+        var src = $img.attr('data-src');
+        $img.css('background-image', 'url("' + src + '")');
+    }
+  });
   if ($('.js-form').length) {
     $('.js-form').each(function() {
       $(this).validate({
