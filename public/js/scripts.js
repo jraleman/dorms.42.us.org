@@ -352,6 +352,11 @@
         $img.css('background-image', 'url("' + src + '")');
     }
   });
+  $(document).ready(function() {
+    cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+      return (alert('Konami code!'));
+    });
+  });
   if ($('.js-form').length) {
     $('.js-form').each(function() {
       $(this).validate({
