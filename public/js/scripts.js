@@ -343,6 +343,8 @@
     $(this).find('.plus-minus-toggle').toggleClass('collapsed');
     $(this).parent().toggleClass('active');
   });
+  // Lazyload
+  $("img.lazyload").lazyload();
   if ($('.js-form').length) {
     $('.js-form').each(function() {
       $(this).validate({
