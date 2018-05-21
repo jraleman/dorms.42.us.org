@@ -3332,6 +3332,7 @@ a.brand:hover, a.brand:focus {
 }
 .faq li {
   padding-left: 24px;
+  padding-right: 24px;
   margin-bottom: 15px;
 }
 .faq li.active .answer {
