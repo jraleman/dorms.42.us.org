@@ -3309,6 +3309,10 @@ a.brand:hover, a.brand:focus {
 ** Custom classes (from me)
 */
 
+#menu-icon {
+  color: white;
+}
+
 .btn-banner {
   background-color: #01babc;
   padding-top: 16px;
@@ -3414,6 +3418,9 @@ a.brand:hover, a.brand:focus {
 }
 .modal-header button span {
   color: #fff;
+}
+.modal-title {
+
 }
 .modal-body img {
   width: 200px;
