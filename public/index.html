@@ -51,7 +51,7 @@
 
     <!-- Sidebar menu
     ================= -->
-    <div id="menu" class="menu">
+    <div data-component="SidebarMenu" id="menu" class="menu">
       <span class="close-menu right-boxed">
         <li class="fa fa-times"></li>
       </span>
@@ -72,18 +72,18 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal modal-open fade" id="modal" tabindex="-42" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div data-component="Modal" class="modal modal-open fade" id="modal" tabindex="-42" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
       <div class="modal-dialog modal-md">
         <div class="modal-content">
           <!-- Modal header -->
-          <div class="modal-header">
+          <div data-component="ModalHeader" class="modal-header">
             <h2 class="modal-title">Modal</h2>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <!-- Modal body -->
-          <div class="modal-body">
+          <div data-component="ModalBody" class="modal-body">
             <div class="row">
               <div class="col-12">
                 <img class="lazyload" style="width: 100%; height: auto;" data-src="images/modal/volleyball.jpg" alt="volleyball" />
@@ -96,20 +96,20 @@
               </div>
             </div>
           </div>
-          <div class="modal-footer"></div>
+          <div data-component="ModalFooter" class="modal-footer"></div>
         </div>
       </div>
     </div>
 
     <!-- Header
     =========== -->
-    <header id="navbar" class="navbar navbar-2 navbar-white boxed">
+    <header data-component="Navbar" id="navbar" class="navbar navbar-2 navbar-white boxed">
       <div class="navbar-bg"></div>
       <button id="menu-icon" type="button" class="navbar-toggle" aria-expanded="false" data-toggle="collapse" data-target="#navbar-collapse">
         <span class="fa fa-2x fa-bars"></span>
       </button>
       <!-- Logo-->
-      <a class="brand" href="#">
+      <a data-component="NavbarLogo" class="brand" href="#">
         <img class="brand-img" alt="logo" src="%PUBLIC_URL%/images/logo/logo.png">
         <img class="brand-img-white" alt="logo" src="%PUBLIC_URL%/images/logo/logo-white.png">
         <div class="brand-info">
@@ -118,12 +118,12 @@
         </div>
       </a>
       <!-- Address -->
-      <address class="navbar-address visible-lg">
+      <address data-component="NavbarAddress" class="navbar-address visible-lg">
         <li class="fa fa-map-marker"></li>
         <span class="text-dark">34793 Ardentech Ct</span>
       </address>
       <!-- Social media -->
-      <div class="social-list hidden-xs">
+      <div data-component="NavbarSocialIcons" class="social-list hidden-xs">
         <a href="https://www.facebook.com/42SiliconValley" target="_blank" class="fa fa-facebook"></a>
         <a href="https://www.twitter.com/42SiliconValley" target="_blank" class="fa fa-twitter"></a>
         <a href="https://www.youtube.com/channel/UC8fe6mEpGZGg2hSDKyYMKPg" target="_blank" class="fa fa-youtube"></a>
@@ -132,7 +132,7 @@
 
     <!-- Toolbar
     ============ -->
-    <section id="toolbar">
+    <section data-component="Toolbar" id="toolbar">
       <div class="copy-bottom white boxed">
         <a href="https://jraleman.com/" target="_blank">by jraleman</a>
       </div>
@@ -149,18 +149,18 @@
 
     <!-- Main
     ========= -->
-    <div class="pagepiling">
+    <div data-component="MainScreen" class="pagepiling">
 
       <!-- Banner
       =========== -->
-      <section id="banner" class="pp-scrollable text-white section section-1">
+      <section data-component="BannerContainer" id="banner" class="pp-scrollable text-white section section-1">
         <div class="scroll-wrap">
           <!-- BannerBackground -->
-          <div class="section-bg"
+          <div data-component="BannerBackground" class="section-bg"
             style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/dorms.jpg);">
           </div>
           <!-- BannerContent -->
-          <div class="scrollable-content">
+          <div data-component="BannerContent" class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
                 <div class="boxed">
@@ -169,13 +169,13 @@
                       <div class="row">
                         <div class="col-md-8 col-lg-6">
                           <!-- BannerTitle -->
-                          <h1 class="display-2 text-white">
+                          <h1 data-component="BannerTitle" class="display-2 text-white">
                             <span class="text-primary">Dorms</span>
                             <span>Nostromo 42</span>
                           </h1>
                           <p>42 School Silicon Valley</p>
                           <!-- BannerButton -->
-                          <a class="btn btn-banner" href="https://dorms.42.us.org/users/auth/marvin">
+                          <a data-component="BannerButton" class="btn btn-banner" href="https://dorms.42.us.org/users/auth/marvin">
                             Apply now!
                           </a>
                           <div class="hr-bottom"></div>
@@ -192,10 +192,10 @@
 
       <!-- Facilities
       =============== -->
-      <section id="facilities" class="pp-scrollable text-white section section-2">
+      <section data-component="FacilitiesContainer" id="facilities" class="pp-scrollable text-white section section-2">
         <div class="scroll-wrap">
           <!-- FacilitiesBackground -->
-          <div class="bg-changer">
+          <div data-component="FacilitiesBackground" class="bg-changer">
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/rooms.jpg);"></div>
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/cafeteria.jpg);"></div>
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/laundry.jpg);"></div>
@@ -205,7 +205,7 @@
             <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/cinema.jpg);"></div>
           </div>
           <!-- FacilitiesContent -->
-          <div class="scrollable-content">
+          <div data-component="FacilitiesContent" class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
                 <div class="boxed">
@@ -215,9 +215,9 @@
                         <div class="col-md-12">
                           <h2 class="title-uppercase text-white">Facilities</h2>
                           <!-- FacilitiesGrid-->
-                          <div class="row-project-box row">
+                          <div data-component="FacilitiesGrid" class="row-project-box row">
                             <!-- FacilitiesItem -->
-                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                            <div data-component="GridItem" class="col-project-box col-sm-6 col-md-4 col-lg-3">
                               <a href="#" data-toggle="modal" data-target="#modal" class="project-box">
                                 <div class="project-box-inner">
                                   <h5>Rooms</h5>
@@ -293,35 +293,45 @@
 
       <!-- FAQ
       ======== -->
-      <section id="faq" class="pp-scrollable section section-3">
+      <section data-component="FAQContainer" id="faq" class="pp-scrollable section section-3">
         <div class="scroll-wrap">
           <!-- FAQBackground -->
-          <div class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/faq.jpg);"></div>
+          <div data-component="FAQBackground" class="section-bg" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/bg/faq.jpg);"></div>
           <!-- FAQContent -->
-          <div class="scrollable-content">
+          <div data-component="FAQContent" class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
                       <!-- Title -->
-                      <div class="row">
+                      <div data-component="FAQTitle" class="row">
                         <div class="col-md-12">
                           <h2 class="title-uppercase text-white">Frequently Asked Questions</h2>
                         </div>
                       </div>
                       <!-- FAQItems-->
                       <!-- Sauce: https://codepen.io/Brolik/pen/EgWjzy -->
-                      <div class="row">
+                      <div data-component="FAQItems" class="row">
                         <ul class="faq">
                           <!-- DropdownItem -->
-                          <li>
+                          <li data-component="DropdownItem">
                             <h3 class="question">
                               <span>Am I available to apply?</span>
                               <div class="plus-minus-toggle collapsed"></div>
                             </h3>
                             <div class="answer">
                               <span>As long as you have a visa :)</span>
+                            </div>
+                          </li>
+                          <!-- DropdownItem -->
+                          <li>
+                            <h3 class="question">
+                              <span>How do I choose my roomate.</span>
+                              <div class="plus-minus-toggle collapsed"></div>
+                            </h3>
+                            <div class="answer">
+                              <span>Make some friends :P</span>
                             </div>
                           </li>
                           <!-- DropdownItem -->
@@ -337,7 +347,7 @@
                           <!-- DropdownItem -->
                           <li>
                             <h3 class="question">
-                              <span>How do I register my wehicule?</span>
+                              <span>How do I register my vehicule?</span>
                               <div class="plus-minus-toggle collapsed"></div>
                             </h3>
                             <div class="answer">
@@ -351,7 +361,7 @@
                               <div class="plus-minus-toggle collapsed"></div>
                             </h3>
                             <div class="answer">
-                              <span>Only if you're a hot girl, or guy... after all, this is California ;)</span>
+                              <span>Yes :3</span>
                             </div>
                           </li>
                         </ul>
@@ -367,7 +377,7 @@
 
       <!-- Contact
       ============ -->
-      <section id="contact" class="pp-scrollable section section-4">
+      <section data-component="ContactContainer" id="contact" class="pp-scrollable section section-4">
         <div class="scroll-wrap">
           <div class="scrollable-content">
             <div class="vertical-centred">
@@ -382,10 +392,10 @@
                           <!-- ContactMap -->
                           <div id="map" class="map-2"></div>
                           <!-- ContactInfo -->
-                          <div class="contact-info">
+                          <div data-component="ContactInfo" class="contact-info">
                             <div class="row-contact-info row">
                               <!-- ContactItem -->
-                              <div class="col-contact-info col-md-6 col-lg-4">
+                              <div data-component="ContactItem" class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
                                   <h3 class="col-sm-3 col-md-4">Email</h3>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
@@ -469,7 +479,7 @@
   <script type="text/javascript" src="%PUBLIC_URL%/js/jquery.stellar.min.js" charset="utf-8"></script>
   <script type="text/javascript" src="%PUBLIC_URL%/js/jquery.pagepiling.js" charset="utf-8"></script>
   <script type="text/javascript" src="%PUBLIC_URL%/js/jquery.lazyloadanything.js" charset="utf-8"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU" charset="utf-8"></script>
+  <script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU" charset="utf-8"></script>
   <script type="text/javascript" src="%PUBLIC_URL%/js/gmap.js" charset="utf-8"></script>
   <script type="text/javascript" src="%PUBLIC_URL%/js/scripts.js" charset="utf-8"></script>
 </body>
