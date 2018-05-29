@@ -1,9 +1,9 @@
 # Nostromo Dorms - 42 Silicon Valley
 
-![RN-Version](https://img.shields.io/badge/react.js-16.3.2-01babc.svg)
+[![RN-Version](https://img.shields.io/badge/react.js-16.3.2-01babc.svg)](https://github.com/facebook/react/releases/tag/v16.3.2)
 [![GitHub Stars](https://img.shields.io/github/stars/jraleman/nostromo-dorms.svg)](https://github.com/jraleman/nostromo-dorms/stars)
 [![GitHub Issues](https://img.shields.io/github/issues/jraleman/nostromo-dorms.svg)](https://github.com/jraleman/nostromo-dorms/issues)
-[![Current Version](https://img.shields.io/badge/slack-open-yellow.svg)](https://42siliconvalley.slack.com)
+[![Slack](https://img.shields.io/badge/slack-open-yellow.svg)](https://42siliconvalley.slack.com)
 
 ![project-logo](resources/project-logo.png)
 
