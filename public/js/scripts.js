@@ -330,7 +330,7 @@
     $(this).parent().toggleClass('active');
   });
   // Lazyload
-  $('.pagepiling').lazyloadanything({
+  $('.lazyload').lazyloadanything({
     'onLoad': function(e, LLobj) {
         var $img = LLobj.$element;
         var src = $img.attr('data-src');
