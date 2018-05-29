@@ -3408,8 +3408,10 @@ a.brand:hover, a.brand:focus {
 
 .modal {
   z-index: 9999 !important;
-  background-color: rgba(0.27, 49.60, 50.13, 0.25);
+  background-image: linear-gradient(to bottom, rgba(0.27, 49.60, 50.13, 0.15), rgba(0.27, 49.60, 50.13, 0.85));
   border-radius: 0.5 0.5 0.5 0.5;
+  text-align: center;
+  padding: 0!important;
 }
 .modal-content {
   color: #222;
@@ -3431,6 +3433,7 @@ a.brand:hover, a.brand:focus {
   height: auto;
 }
 .modal-body p {
+  text-align: justify;
   margin-left: 24px;
   margin-right: 12px;
   margin-top: 12px;
@@ -3438,4 +3441,15 @@ a.brand:hover, a.brand:focus {
 }
 .modal-footer {
   border-top: #f9f9f9;
+}
+.vertical-alignment-helper {
+  display: table;
+  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+}
+.vertical-align-center {
+  /* To center vertically */
+  display: table-cell;
+  vertical-align: middle;
 }
