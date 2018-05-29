@@ -8,13 +8,6 @@
     $('html').addClass('no-mobile');
     mobileDevice = false;
   }
-  $(window).on('load', function() {
-    var wow = new WOW({
-      offset: 150,
-      mobile: false
-    });
-    wow.init();
-  });
   var navbar = $('.js-navbar:not(.navbar-fixed)');
   $(".animsition").animsition({
     inClass: 'fade-in',
@@ -25,8 +18,8 @@
     loadingParentElement: 'body',
     loadingClass: 'spinner',
     loadingInner: '<div class="double-bounce1"></div><div class="double-bounce2"></div>',
-    timeout: false,
-    timeoutCountdown: 5000,
+    timeout: true,
+    timeoutCountdown: 2500,
     onLoadEvent: true,
     browser: ['animation-duration', '-webkit-animation-duration'],
     overlay: false,
@@ -82,13 +75,6 @@
       }, 1000);
       return false;
     }
-  });
-  $(window).stellar({
-    responsive: true,
-    horizontalScrolling: false,
-    hideDistantElements: false,
-    horizontalOffset: 0,
-    verticalOffset: 0,
   });
 
   function columnGrid() {
@@ -344,8 +330,7 @@
     $(this).parent().toggleClass('active');
   });
   // Lazyload
-  $('img.lazyload').lazyload();
-  $('.pagepiling').lazyloadanything({
+  $('.lazyload').lazyloadanything({
     'onLoad': function(e, LLobj) {
         var $img = LLobj.$element;
         var src = $img.attr('data-src');
