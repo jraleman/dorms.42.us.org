@@ -71,32 +71,40 @@
       </ul>
     </div>
 
-    <!-- Modal -->
-    <div data-component="Modal" class="modal modal-open fade" id="modal" tabindex="-42" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <!-- Modal
+    ========== -->
+    <div data-component="Modal" tabindex="-42" class="modal modal-open fade" id="modal" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
       <div class="modal-dialog modal-md">
         <div class="modal-content">
           <!-- Modal header -->
+          <!--
           <div data-component="ModalHeader" class="modal-header">
             <h2 class="modal-title">Modal</h2>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
+          -->
           <!-- Modal body -->
           <div data-component="ModalBody" class="modal-body">
             <div class="row">
               <div class="col-12">
-                <img class="lazyload" style="width: 100%; height: auto;" data-src="images/modal/volleyball.jpg" alt="volleyball" />
+                <img class="lazyload" data-src="images/modal/volleyball.jpg" alt="volleyball" />
               </div>
               <div class="col-12">
-                Consequuntur facere pariatur est ut et.
-                Fuga ullam omnis aperiam omnis similique qui dolor impedit.
-                Ipsam sequi quo aliquam et. Quo cupiditate quia atque.
-                Ab rerum velit autem illum eveniet.
+                <p>
+                  Consequuntur facere pariatur est ut et.
+                  Fuga ullam omnis aperiam omnis similique qui dolor impedit.
+                  Ipsam sequi quo aliquam et. Quo cupiditate quia atque.
+                  Ab rerum velit autem illum eveniet.
+                </p>
               </div>
             </div>
           </div>
-          <div data-component="ModalFooter" class="modal-footer"></div>
+          <!-- Modal footer -->
+          <div data-component="ModalFooter" class="modal-footer">
+            <button type="button" name="button" data-dismiss="modal" aria-label="Close">Close</button>
+          </div>
         </div>
       </div>
     </div>
