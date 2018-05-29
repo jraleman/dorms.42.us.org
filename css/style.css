@@ -3406,23 +3406,36 @@ a.brand:hover, a.brand:focus {
 ** -----------------------------------------------------------------------------
 */
 
-.modal{
-  z-index: 9999;
+.modal {
+  z-index: 9999 !important;
+  background-color: rgba(0.27, 49.60, 50.13, 0.25);
+  border-radius: 0.5 0.5 0.5 0.5;
 }
 .modal-content {
   color: #222;
 }
 .modal-header {
-  color: #f9f9f9;
-  background-color: #01BABC;
+  color: #f9f9f9 !important;
+  background-color: #01BABC !important;
+  margin-bottom: -18px !important;
 }
 .modal-header button span {
-  color: #fff;
+  color: #fff important!;
 }
 .modal-title {
-
+  color: #f9f9f9 !important;
 }
 .modal-body img {
-  width: 200px;
+  margin-top: -42px;
+  width: 100%;
   height: auto;
+}
+.modal-body p {
+  margin-left: 24px;
+  margin-right: 12px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+}
+.modal-footer {
+  border-top: #f9f9f9;
 }
