@@ -1,8 +1,14 @@
 # Nostromo Dorms - 42 Silicon Valley
 
+[![Live Demo](https://img.shields.io/badge/demo-online-80dcdd.svg)](https://jraleman.com/nostromo-dorms)
+![RN-Version](https://img.shields.io/badge/react-16.3.2-01babc.svg)
+[![GitHub Stars](https://img.shields.io/github/stars/jraleman/nostromo-dorms.svg)](https://github.com/jraleman/nostromo-dorms/stars)
+[![GitHub Issues](https://img.shields.io/github/issues/jraleman/nostromo-dorms.svg)](https://github.com/IgorAntun/node-chat/issues)
+[![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat)
+
 ## About
 
-...
+This is a react.js web application used as the website for 42 Silicon Valley's website.
 
 ## Setup
 
@@ -34,8 +40,13 @@ the component state.
 This is the main idea:
 
 ```
-srcs
-├── config/
+src
+├── assets/
+│   ├── fonts/
+│  ...
+│   └── images/
+│       ├── logo-landscape.png
+│       └── background.png
 ├── components/
 │   ├── Button/
 │   │   ├── Button.js
@@ -46,12 +57,23 @@ srcs
 │       ├── Header.js
 │       ├── index.js
 │       └── styles.js
-└── assets/
-    ├── fonts/
-   ...
-    └── images/
-        ├── logo-landscape.png
-        └── background.png
+├── containers/
+│   ├── BannerContent/
+│   │   ├── BannerContent.js
+│   │   ├── index.js
+│   │   └── styles.js
+|  ...
+│   └── FacilitiesBackground/
+│       ├── FacilitiesBackground.js
+│       ├── index.js
+│       └── styles.js
+└── i18n/
+    ├── index.js/
+    └── languages/
+        ├── de.json
+        ├── en.json
+       ...
+        └── pt.json
 ```
 
 ## Design Style Guide
@@ -65,39 +87,67 @@ srcs
 
 ## TODO
 
-...
+- [x] Create repo :p
+- [x] Make mockups
+- [x] Complete html structure
+- [x] Finish static front-end
+- [x] Take photos
+- [x] Install React
+- [ ] Create containers
+- [ ] Create components
+- [ ] Integrate i18n with React
+- [ ] Add Google Maps react component
+- [ ] Finish documentation
+- [ ] Make demo gif
 
 ### Bugs
 
-...
+- Duplicated navigation indicator (right-side nav circles).
+- On mobile, toolbox isn't visible.
 
-### Ideas
+### Easter Eggs
 
-...
-
-
-## Easter Eggs
-
-...
+- Enter the Konami code... see what happens :)
 
 ## Dependencies
 
-...
-
-## Contributors
-
-* [Jose Ramon Aleman](https://github.com/jraleman/)
+- Bootstrap
+- Google Maps
+- Font Awesome
+- Animsition
+- Cheet.js
+- Smoothscroll
+- jQuery
+  - jQuery.fullPage
+  - jQuery.lazyloadanything
+  - jQuery.pagepilling
 
 ## Acknowledgment
 
-- As an inspiration, thanks to [Paul Theme's Banhaus](http://paul-themes.com/html/bauhaus/preview/).
+- Thanks to [Paul Theme's Banhaus](http://paul-themes.com/html/bauhaus/preview/). Awesome theme, and good inspiration source :D
 
-## Resources
+## Support me!
+
+It means a lot to me! :)
+
+### Contribute
+
+I really, really appreciate any contribution, as long as me and
+42 Silicon Valley school accepts the pull request. If you need help on how to
+get started, plese follow this [guideline](resources/pr-guideline.md).
+
+### Donations
 
 ...
 
+### Hire me
+
+If you need help with something, looking for a designer, developer, or engineer.
+I am currently working with [Vemidoc, an awesome startup](htttps://vemidoc.com).
+But I am always up for any new challenge :D
+
 ## License
 
-This project is under the MIT License. Meaning that you can use, copy, modify, merge, publish, 
-distribute, sub-license, and/or sell copies of the final products. 
+This project is under the MIT License. Meaning that you can use, copy, modify, merge, publish,
+distribute, sub-license, and/or sell copies of the final products.
 See the [LICENSE](LICENSE) file for more details.
