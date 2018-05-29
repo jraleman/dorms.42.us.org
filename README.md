@@ -1,19 +1,18 @@
 # Nostromo Dorms - 42 Silicon Valley
 
-[![Live Demo](https://img.shields.io/badge/demo-online-80dcdd.svg)](https://jraleman.com/nostromo-dorms)
 ![RN-Version](https://img.shields.io/badge/react.js-16.3.2-01babc.svg)
 [![GitHub Stars](https://img.shields.io/github/stars/jraleman/nostromo-dorms.svg)](https://github.com/jraleman/nostromo-dorms/stars)
-[![GitHub Issues](https://img.shields.io/github/issues/jraleman/nostromo-dorms.svg)](https://github.com/IgorAntun/node-chat/issues)
-[![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat)
+[![GitHub Issues](https://img.shields.io/github/issues/jraleman/nostromo-dorms.svg)](https://github.com/jraleman/nostromo-dorms/issues)
+[![Current Version](https://img.shields.io/badge/slack-open-yellow.svg)](https://42siliconvalley.slack.com)
 
 ![project-logo](resources/project-logo.png)
 
 ## About
 
-This is a react.js web application used as the website for 42 Silicon Valley's
-website.
+This is a react.js web application used as the dorm's website for 42
+Silicon Valley School.
 
-<!-- Take a look at: [https://dorms.42.us.org](https://dorms.42.us.org) -->
+Take a look at: [https://dorms.42.us.org](https://dorms.42.us.org)
 
 ## Setup
 
@@ -35,6 +34,8 @@ Start the development server:
 ```
 npm start
 ```
+
+Then open a browser and go to `localhost:3000`
 
 ## Project Structure
 
@@ -140,10 +141,6 @@ It means a lot to me! :)
 I really, really appreciate any contribution, as long as me and
 42 Silicon Valley school accepts the pull request. If you need help on how to
 get started, plese follow this [guideline](resources/pr-guideline.md).
-
-### Donations
-
-...
 
 ### Hire me
 
