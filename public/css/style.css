@@ -3408,7 +3408,7 @@ a.brand:hover, a.brand:focus {
 
 .modal {
   z-index: 9999 !important;
-  background-image: linear-gradient(to bottom, rgba(0.27, 49.60, 50.13, 0.15), rgba(0.27, 49.60, 50.13, 0.85));
+  background-image: linear-gradient(to bottom, rgba(0.27, 49.60, 50.13, 0.15), rgba(0, 49.70, 50.39, 0.85));
   border-radius: 0.5 0.5 0.5 0.5;
   text-align: center;
   padding: 0!important;
