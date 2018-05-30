@@ -43,43 +43,77 @@ The idea of having a good project structure is to have a cross platform project,
 to maximize code reuse, keep the configurations out of the code, and minimize
 the component state.
 
-This is the main idea:
+This is the main idea for the source code:
 
 ```
 src
-├── assets/
-│   ├── fonts/
-│  ...
-│   └── images/
-│       ├── logo-landscape.png
-│       └── background.png
 ├── components/
 │   ├── Button/
 │   │   ├── Button.js
-│   │   ├── index.js
-│   │   └── styles.js
+│   │   └── index.js
 |  ...
 │   └── Header/
 │       ├── Header.js
-│       ├── index.js
-│       └── styles.js
+│   │   └── index.js
 ├── containers/
 │   ├── BannerContent/
 │   │   ├── BannerContent.js
-│   │   ├── index.js
-│   │   └── styles.js
+│   │   └── index.js
 |  ...
 │   └── FacilitiesBackground/
 │       ├── FacilitiesBackground.js
-│       ├── index.js
-│       └── styles.js
-└── i18n/
-    ├── index.js/
-    └── languages/
-        ├── de.json
-        ├── en.json
-       ...
-        └── pt.json
+│   │   └── index.js
+├── i18n/
+|   ├── i18n.js
+|   ├── index.js
+|   └── languages/
+|       ├── de.json
+|       ├── en.json
+|      ...
+|       └── pt.json
+├── images/
+│   ├── bg
+│   │   ├── backyard.jpg
+|   |  ...
+│   │   └── rooms.jpg
+│   ├── logo
+│   │   ├── logo.png
+│   │   └── logo-white.png
+│   ├── modal
+│   │   ├── happy.jpg
+|   |  ...
+│   │   └── volleyball.jpg
+│   └── placeholder.jpg
+└── sections/
+    ├── Banner/
+    │   ├── Banner.js
+    │   └── index.js
+   ...
+    └── FAQ/
+        ├── FAQ.js
+        └── index.js
+```
+
+The public directory contains all the styles and component-less scripts:
+
+```
+public/
+├── css
+│   ├── bootstrap.css
+|  ...
+│   └── style.css
+├── favicon.ico
+├── fonts
+│   ├── fontawesome-webfont3e6e.eot
+|  ...
+│   └── poppins-regular-webfont.woff2
+├── index.html
+├── js
+│   ├── bootstrap.min.js
+|  ...
+│   └── scripts.js
+└── manifest.json
+
 ```
 
 ## Design Style Guide
@@ -93,12 +127,13 @@ src
 
 ## TODO
 
-- [x] Create repo :p
+- [x] Create repo :)
 - [x] Make mockups
 - [x] Complete html structure
 - [x] Finish static front-end
 - [x] Take photos
 - [x] Install React
+- [x] Create sections
 - [ ] Create containers
 - [ ] Create components
 - [ ] Integrate i18n with React
@@ -113,7 +148,10 @@ src
 
 ### Easter Eggs
 
-- Enter the Konami code... see what happens :)
+- Konami code. `8-)`
+- My cat. `:3`
+- Kwame's dog. `:<`
+- Best dish in the history of mankind. `:)`
 
 ## Dependencies
 
@@ -130,7 +168,13 @@ src
 
 ## Acknowledgment
 
-- Thanks to [Paul Theme's Banhaus](http://paul-themes.com/html/bauhaus/preview/). Awesome theme, and good inspiration source :D
+This project uses the following assets:
+
+### [Paul Theme's Banhaus](http://paul-themes.com/html/bauhaus/preview/).
+
+This is a really awesome theme. It's very well organized and documented.
+
+- Theme icon as project icon.
 
 ## Support me!
 
