@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Banner from 'containers/Banner';
-import Facilities from 'containers/Facilities';
-import FAQ from 'containers/Faq';
-import Contact from 'containers/Contact';
+import Banner from 'sections/Banner';
+import Facilities from 'sections/Facilities';
+import FAQ from 'sections/Faq';
+import Contact from 'sections/Contact';
 
 class App extends React.Component {
   render() {
