@@ -35,13 +35,30 @@ Start the development server:
 npm start
 ```
 
-Then open a browser and go to `localhost:3000`
+Then open a browser and go to `localhost:3000`.
+
+## Dependencies
+
+This project uses the following technologies:
+
+- Bootstrap
+- Google Maps
+- Font Awesome
+- Animsition
+- Cheet.js
+- Smoothscroll
+- jQuery
+  - jQuery.fullPage
+  - jQuery.lazyloadanything
+  - jQuery.pagepilling
+
+Thanks to these teams, the world is a better place :)
 
 ## Project Structure
 
-The idea of having a good project structure is to have a cross platform project,
-to maximize code reuse, keep the configurations out of the code, and minimize
-the component state.
+The idea of having a good project structure is to have a cross platform
+project, to maximize code reuse, keep the configurations out of the code,
+and minimize the component state.
 
 This is the main idea for the source code:
 
@@ -94,7 +111,7 @@ src
         └── index.js
 ```
 
-The public directory contains all the styles and component-less scripts:
+The public directory contains all the styles and state-less components scripts:
 
 ```
 public/
@@ -134,17 +151,19 @@ public/
 - [x] Take photos
 - [x] Install React
 - [x] Create sections
-- [ ] Create containers
+- [x] Create containers
 - [ ] Create components
 - [ ] Integrate i18n with React
 - [ ] Add Google Maps react component
 - [ ] Finish documentation
 - [ ] Make demo gif
 
-### Bugs
+### To Fix (A Bugs' Life)
 
 - Duplicated navigation indicator (right-side nav circles).
-- On mobile, toolbox isn't visible.
+- Responsive (mobile) version, the isn't visible.
+
+## Extras
 
 ### Easter Eggs
 
@@ -152,19 +171,6 @@ public/
 - My cat. `:3`
 - Kwame's dog. `:<`
 - Best dish in the history of mankind. `:)`
-
-## Dependencies
-
-- Bootstrap
-- Google Maps
-- Font Awesome
-- Animsition
-- Cheet.js
-- Smoothscroll
-- jQuery
-  - jQuery.fullPage
-  - jQuery.lazyloadanything
-  - jQuery.pagepilling
 
 ## Acknowledgment
 
@@ -182,18 +188,20 @@ It means a lot to me! :)
 
 ### Contribute
 
-I really, really appreciate any contribution, as long as me and
-42 Silicon Valley school accepts the pull request. If you need help on how to
-get started, plese follow this [guideline](resources/pr-guideline.md).
+I really, really appreciate any contribution, as long as me and 42 School
+Silicon Valley school accepts the pull request. If you need help on how to
+get started, please follow this [guideline](resources/pr-guideline.md).
 
 ### Hire me
 
-If you need help with something, looking for a designer, developer, or engineer.
-I am currently working with [Vemidoc, an awesome startup](htttps://vemidoc.com).
-But I am always up for any new challenge :D
+If you are looking for a designer, developer, or engineer, I might be
+available to help you out, or to provide my services.
+I am always up for any new challenge! :D
+
+Just contact me and let's see how I can help you out! :)
 
 ## License
 
-This project is under the MIT License. Meaning that you can use, copy, modify, merge, publish,
-distribute, sub-license, and/or sell copies of the final products.
-See the [LICENSE](LICENSE) file for more details.
+This project is under the MIT License. Meaning that you can use, copy, modify,
+merge, publish, distribute, sub-license, and/or sell copies of the final
+products. See the [LICENSE](LICENSE) file for more details.
