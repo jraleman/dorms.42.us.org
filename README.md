@@ -133,9 +133,41 @@ public/
 
 ```
 
-## Design Style Guide
+## Style Guide
 
-### Colors
+### Code
+
+This project follows the `semistandard`, which is just the `standard` style
+guide, but including semicolons `;` at the end of a statement. This is because
+love the C programming languages, and semicolons are awesome.
+
+#### Lint
+
+After running `npm install`, you can run the following scripts (depending on
+your platform), to check if the code follows the `semistandard` coding
+style guide.
+
+| Mac OS X           | Linux                    | Description                 |
+| :----------------- | :----------------------- | :-------------------------- |
+| `npm run lint`     | `npm run lint`           | Checks `src/` code style    |
+| `npm run lint-log` | `npm run lint-log-linux` | Saves and open the log file |
+
+If you have any problem running the lint from the project, try installing the
+following packages globally, like this:
+
+```
+npm install --save snazzy
+npm install --save semistandard
+```
+
+And then just run the lint from your end.
+
+### Design
+
+Anything related to graphic design, such as colors, fonts,
+metrics... goes here.
+
+#### Colors
 
 ![#01babc](http://via.placeholder.com/150/01babc/000000?text=primary)
 ![#80dcdd](http://via.placeholder.com/150/80dcdd/000000?text=highlight)
@@ -152,8 +184,8 @@ public/
 - [x] Install React
 - [x] Create sections
 - [x] Create containers
-- [ ] Create components
-- [ ] Integrate i18n with React
+- [x] Create components
+- [ ] Integrate i18n to React
 - [ ] Add Google Maps react component
 - [ ] Finish documentation
 - [ ] Make demo gif
@@ -164,6 +196,8 @@ public/
 - Responsive (mobile) version, the isn't visible.
 
 ## Extras
+
+Just for fun!
 
 ### Easter Eggs
 
