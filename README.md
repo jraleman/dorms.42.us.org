@@ -220,6 +220,15 @@ This is a really awesome theme. It's very well organized and documented.
 
 It means a lot to me! :)
 
+### Donate
+
+If you like what you see, or if this project help you reduce time to develop
+your own projects (let's say a React.js app), you can give me a a pint :)
+
+I don't like coffee... *fite me if u mad bro*
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](#)
+
 ### Contribute
 
 I really, really appreciate any contribution, as long as me and 42 School
