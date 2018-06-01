@@ -233,7 +233,7 @@ I don't like coffee... *fite me if u mad bro*
 
 I really, really appreciate any contribution, as long as me and 42 School
 Silicon Valley school accepts the pull request. If you need help on how to
-get started, please follow this [guideline](resources/pr-guideline.md).
+get started, please follow this [example](resources/pr-example.md).
 
 ### Hire me
 
