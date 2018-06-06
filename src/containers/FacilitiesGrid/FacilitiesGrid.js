@@ -1,5 +1,5 @@
 import React from "react";
-import GridItem from "./GridItem";
+import GridItem from "../../components/GridItem";
 
 export default class FacilitiesGrid extends React.Component {
   render() {

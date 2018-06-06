@@ -1,6 +1,6 @@
 import React from "react";
-import BannerTitle from "./BannerTitle";
-import BannerButton from "./BannerButton";
+import BannerTitle from "../BannerTitle";
+import BannerButton from "../BannerButton";
 
 export default class BannerContent extends React.Component {
   render() {

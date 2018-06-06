@@ -1,3 +1,3 @@
 import ContactItems from './ContactItems'
 
-export default ContactItem;
+export default ContactItems;

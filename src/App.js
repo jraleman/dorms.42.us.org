@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Banner from 'sections/Banner';
-import Facilities from 'sections/Facilities';
-import FAQ from 'sections/Faq';
-import Contact from 'sections/Contact';
+import Banner from './sections/Banner';
+import Facilities from './sections/Facilities';
+import FAQ from './sections/FAQ';
+import Contact from './sections/Contact';
 
 class App extends React.Component {
-  render() {
+  render () {
     return (
       <div className="pagepiling">
         <Banner />

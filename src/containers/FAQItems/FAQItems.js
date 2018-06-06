@@ -1,5 +1,5 @@
 import React from "react";
-import DropdownItem from "./DropdownItem";
+import DropdownItem from "../../components/DropdownItem";
 
 export default class FAQItems extends React.Component {
   render() {

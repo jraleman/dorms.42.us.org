@@ -1,6 +1,6 @@
 import React from "react";
-import FAQTitle from "./FAQTitle";
-import FAQItems from "./FAQItems";
+import FAQTitle from "../FAQTitle";
+import FAQItems from "../FAQItems";
 
 export default class FAQContent extends React.Component {
   render() {

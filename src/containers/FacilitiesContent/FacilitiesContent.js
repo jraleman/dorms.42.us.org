@@ -1,5 +1,5 @@
 import React from "react";
-import FacilitiesGrid from "./FacilitiesGrid";
+import FacilitiesGrid from "../FacilitiesGrid";
 
 export default class FacilitiesContent extends React.Component {
   render() {

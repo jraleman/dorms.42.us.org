@@ -1,12 +1,12 @@
 import React from "react";
-import ContactItem from "./ContactItem";
+import ContactItems from "../ContactItems";
 
 export default class ContactInfo extends React.Component {
   render() {
     return (
       <div className="contact-info">
         <div className="row-contact-info row">
-          <ContactItem />
+          <ContactItems />
           <div className="col-contact-info col-md-6 col-lg-4">
             <div className="row">
               <h3 className="col-sm-3 col-md-4">Phone</h3>

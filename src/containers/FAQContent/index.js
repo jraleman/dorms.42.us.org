@@ -1,3 +1,3 @@
-import FAQContenr from './FAQContent';
+import FAQContent from './FAQContent';
 
 export default FAQContent;
