@@ -14,7 +14,6 @@ export default class BannerContent extends React.Component {
                   <div className="row">
                     <div className="col-md-8 col-lg-6">
                       <BannerTitle />
-                      <p>{ "42 School Silicon Valley" }</p>
                       <BannerButton />
                       <div className="hr-bottom" />
                     </div>
