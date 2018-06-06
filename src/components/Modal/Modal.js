@@ -36,13 +36,7 @@ const ModalBody = props => {
           />
         </div>
         <div className="col-12">
-          <p>
-            {"
-              Consequuntur facere pariatur est ut et. Fuga ullam omnis aperiam
-              omnis similique qui dolor impedit. Ipsam sequi quo aliquam et.
-              Quo cupiditate quia atque. Ab rerum velit autem illum eveniet.
-            "}
-          </p>
+          <p>{ "I love 42! <3" }</p>
         </div>
       </div>
     </div>

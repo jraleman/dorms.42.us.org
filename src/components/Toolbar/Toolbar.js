@@ -14,16 +14,16 @@ export default class Toolbar extends React.Component {
             <a href="#" className="active">
               { "English" }
             </a>
-            <a href="#" onclick="alert('Bient\xF4t! :)')">
+            <a href="#">
               { "Français" }
             </a>
-            <a href="#" onclick="alert('Esperalo! :)')">
+            <a href="#">
               { "Espanol" }
             </a>
-            <a href="#" onclick="alert('Bald! :)')">
+            <a href="#">
               { "Deutsch" }
             </a>
-            <a href="#" onclick="alert('Em breve! :)')">
+            <a href="#">
               { "Portuguese" }
             </a>
           </div>
