@@ -231,9 +231,9 @@ I don't like coffee... *fite me if u mad bro*
 
 ### Contribute
 
-I really, really appreciate any contribution, as long as me and 42 School
-Silicon Valley school accepts the pull request. If you need help on how to
-get started, please follow this [example](resources/pr-example.md).
+We really, really appreciate any contribution, as long as me and 42 School
+Silicon Valley accepts the pull request. If you need help on how to
+get started, please follow [this guideline](CONTRIBUTING.md).
 
 ### Hire me
 
