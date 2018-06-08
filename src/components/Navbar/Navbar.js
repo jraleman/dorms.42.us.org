@@ -40,12 +40,12 @@ const NavbarLogo = props => {
       <img
         className="brand-img"
         alt="logo"
-        src="%PUBLIC_URL%/images/logo/logo.png"
+        src="images/logo/logo.png"
       />
       <img
         className="brand-img-white"
         alt="logo"
-        src="%PUBLIC_URL%/images/logo/logo-white.png"
+        src="images/logo/logo-white.png"
       />
       <div className="brand-info">
         <div className="brand-name">
