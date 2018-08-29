@@ -13,11 +13,11 @@ import Toolbar from './components/Toolbar';
 class App extends React.Component {
   render () {
     return (
-      <section id="pagepiling" className="animsition" style={{ zIndex: 4242 }}>
+      <React.Fragment>
         <div className="click-capture"></div>
+        <SidebarMenu />
         <Modal />
         <Navbar />
-        <SidebarMenu />
         <Toolbar />
         <div className="pagepiling">
           <Banner />
@@ -25,7 +25,7 @@ class App extends React.Component {
           <FAQ />
           <Contact />
         </div>
-      </section>
+      </React.Fragment>
     );
   }
 }
