@@ -154,3 +154,19 @@
     columnGrid();
   });
 })(jQuery);
+
+var sequences = {
+	konami: 'up up down down left right left right b a',
+  barry: 'b a r r y'
+};
+cheet(sequences.unaPena);
+cheet(sequences.tty);
+cheet(sequences.konami);
+cheet.done(function (seq) {
+  if (seq === sequences.konami) {
+    window.alert('Konami code!');
+  }
+	else if (seq === sequences.barry) {
+    window.alert('Meow! 🐱');
+  }
+});
