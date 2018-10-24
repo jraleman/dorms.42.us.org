@@ -1903,7 +1903,7 @@ a.brand:hover,a.brand:focus {
 }
 
 .faq li.active .answer {
-  max-height: 375px !important;
+  max-height: 420px !important;
   padding-bottom: 25px;
   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
 }
