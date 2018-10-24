@@ -159,8 +159,7 @@ var sequences = {
 	konami: 'up up down down left right left right b a',
   barry: 'b a r r y'
 };
-cheet(sequences.unaPena);
-cheet(sequences.tty);
+cheet(sequences.barry);
 cheet(sequences.konami);
 cheet.done(function (seq) {
   if (seq === sequences.konami) {
