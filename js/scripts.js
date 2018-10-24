@@ -68,18 +68,15 @@
         loopBottom: true,
         afterLoad: function(anchorLink, index) {
           if (!(index % 5)) {
-            document.getElementById('toolbar').style.display = 'block';
             document.getElementById('menu-icon').style.color = 'black';
           }
           else if (!(index % 2)) {
             $('.navbar').removeClass('navbar-white');
             $('#pp-nav').removeClass('white');
-            document.getElementById('toolbar').style.display = 'none';
             document.getElementById('menu-icon').style.color = 'black';
           } else {
             $('.navbar').addClass('navbar-white');
             $('#pp-nav').addClass('white');
-            document.getElementById('toolbar').style.display = 'block';
             document.getElementById('menu-icon').style.color = 'white';
           }
         }
@@ -119,9 +116,6 @@
       var index = $('.project-box').index(this);
       $('.bg-changer .section-bg').removeClass('active').eq(index).addClass('active');
     });
-    cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-      return (alert('Konami code!'));
-    });
   });
   // DropdownItem
   $('.faq li .question').click(function () {
@@ -154,7 +148,7 @@
     columnGrid();
   });
 })(jQuery);
-
+// ???
 var sequences = {
 	konami: 'up up down down left right left right b a',
   barry: 'b a r r y'
