@@ -11,12 +11,12 @@
   var navbar = $('.js-navbar:not(.navbar-fixed)');
   $( document ).ready(function() {
     $('#pagepiling').pagepiling({
-       menu: '#menu',
-       anchors: ['banner', 'facilities', 'faq', 'contact'],
-       navigation: {
-          'position': 'right',
-          'tooltips': ['Apply', 'Facilities', 'FAQ', 'Contact']
-       },
+      menu: '#menu',
+      anchors: ['banner', 'facilities', 'faq', 'contact'],
+      navigation: {
+        'position': 'right',
+        'tooltips': ['Apply', 'Facilities', 'FAQ', 'Contact']
+      }
     });
     $(".animsition").animsition({
       inClass: 'fade-in',
@@ -65,7 +65,18 @@
     if ($('.pagepiling').length > 0) {
       $('.pagepiling').pagepiling({
         scrollingSpeed: 280,
-        loopBottom: true,
+        loopBottom: false,
+        scrollOverflow: true,
+        scrollOverflowEndPrevent: {
+          delay: 500,
+          reversal: false
+        },
+        loopBottom: false,
+        loopTop: false,
+        css3: true,
+        touchSensitivity: 5,
+        keyboardScrolling: true,
+        animateAnchor: true,
         afterLoad: function(anchorLink, index) {
           if (!(index % 2)) {
             $('.navbar').removeClass('navbar-white');
