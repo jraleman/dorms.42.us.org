@@ -305,6 +305,10 @@ a.brand:hover,a.brand:focus {
   margin-top: -.3rem;
 }
 
+#menu-icon {
+  color: #01babc;
+}
+
 .navbar-toggle {
   display: block;
   margin: 0;

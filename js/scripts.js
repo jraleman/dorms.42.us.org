@@ -67,17 +67,13 @@
         scrollingSpeed: 280,
         loopBottom: true,
         afterLoad: function(anchorLink, index) {
-          if (!(index % 5)) {
-            document.getElementById('menu-icon').style.color = 'black';
-          }
-          else if (!(index % 2)) {
+          if (!(index % 2)) {
             $('.navbar').removeClass('navbar-white');
             $('#pp-nav').removeClass('white');
-            document.getElementById('menu-icon').style.color = 'black';
-          } else {
+          }
+          else {
             $('.navbar').addClass('navbar-white');
             $('#pp-nav').addClass('white');
-            document.getElementById('menu-icon').style.color = 'white';
           }
         }
       });
